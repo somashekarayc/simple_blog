@@ -6,7 +6,6 @@
       $this->db = new Database;
     }
 
-    // Regsiter user
     public function register($data){
       $this->db->query('INSERT INTO users (name, email, password) VALUES(:name, :email, :password)');
       // Bind values
