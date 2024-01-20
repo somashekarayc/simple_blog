@@ -12,7 +12,6 @@
       $this->db->bind(':email', $data['email']);
       $this->db->bind(':password', $data['password']);
 
-      // Execute
       if($this->db->execute()){
         return true;
       } else {
@@ -20,7 +19,6 @@
       }
     }
 
-    //login user
     public function login($login, $password){
      $this->db->query('SELECT * FROM users WHERE email = :email');     
      $this->db->bind(':email', $login);
