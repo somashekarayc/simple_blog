@@ -5,7 +5,6 @@
     }
 
     public function register(){
-      // Check for POST
       if($_SERVER['REQUEST_METHOD'] == 'POST'){
         // Process form
   

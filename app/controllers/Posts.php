@@ -17,7 +17,6 @@ class Posts extends Controller {
         }
 
 
-        //Get Posts
         $posts = $this->postModel->getPosts();
         $data = [
             'posts' => $posts
