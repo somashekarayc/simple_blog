@@ -1,7 +1,12 @@
 <?php
   class Users extends Controller {
+
+    private $validator;
+
     public function __construct(){
       $this->userModel = $this->model('User');
+      $this->validator = new Validator;
+
     }
 
     public function register(){
@@ -168,7 +173,7 @@
     }
 
     public function logout(){
-      
+
       unset($_SESSION['user_id']);
       unset($_SESSION['user_email']);
       unset($_SESSION['user_name']);
