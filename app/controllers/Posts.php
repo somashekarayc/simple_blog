@@ -12,10 +12,6 @@ class Posts extends Controller {
     }
 
     public function index(){
-        if(isLogged()){
-            redirect('posts');
-        }
-
 
         $posts = $this->postModel->getPosts();
         $data = [

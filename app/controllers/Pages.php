@@ -6,7 +6,7 @@
     
     public function index(){
       $data = [
-        'title' => 'SharePosts',
+        'title' => 'SimpleBlog',
         'description' => 'Simple social network built on the TraversyMVC PHP framework'
       ];
      
