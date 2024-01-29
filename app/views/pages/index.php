@@ -5,4 +5,9 @@
     <p class="lead"><?php echo $data['description']; ?></p>
     </div>
   </div> 
+  <script>
+
+toastr.success('Have fun storming the castle!', 'Miracle Max Says')
+
+  </script>
 <?php require APPROOT . '/views/inc/footer.php'; ?>
