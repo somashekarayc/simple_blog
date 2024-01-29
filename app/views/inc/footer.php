@@ -7,8 +7,5 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
   <script src="<?php echo URLROOT; ?>/js/main.js"></script>
 
-  <script>
-
-  </script>
 </body>
 </html>
