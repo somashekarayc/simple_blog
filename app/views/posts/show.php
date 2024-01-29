@@ -14,5 +14,9 @@
     </form>
     <?php endif; ?>
 
+    <script>
+toastr.info('I do not think that word means what you think it means.', 'Inconceivable!')
+
+    </script>
  
 <?php require APPROOT . '/views/inc/footer.php'; ?>
