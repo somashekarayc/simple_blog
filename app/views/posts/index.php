@@ -22,5 +22,8 @@
         <a href="<?php echo URLROOT; ?>/posts/show/<?php echo $post->postId; ?>" class="btn btn-dark">Read More</a>
     </div>
 <?php endforeach; ?>
+<script>
+toastr.error('I do not think that word means what you think it means.', 'Inconceivable!')
 
+</script>
 <?php require APPROOT . '/views/inc/footer.php'; ?>
