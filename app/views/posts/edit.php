@@ -21,5 +21,8 @@
         </form>
       </div>
     
- 
+ <script>
+toastr.error('edited.', 'Inconceivable!')
+
+ </script>
 <?php require APPROOT . '/views/inc/footer.php'; ?>
